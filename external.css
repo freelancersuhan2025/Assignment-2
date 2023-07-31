@@ -157,13 +157,13 @@ main{
                                 margin: auto;
                                 font-family: 'Work Sans', sans-serif;
                                 display: flex;
+                                 justify-content: space-between;
                                 position: relative;
-                                gap: 10%;
                                 border: 1px dotted red;
                                }
   /* Text area style                              */
-.FeaturesyouText{width:40%;
-                border: 1px solid red;
+.FeaturesyouText{width:45%;
+                border: 1px solid rgb(0, 255, 191);
                 display: flex;
                 flex-direction: column;
                 gap: 20px;    
@@ -205,7 +205,7 @@ main{
 
 /*features big img style*/
 .featuresyouImg{width:50%;
-    border: 1px solid red;}  
+    border: 1px solid rgb(115, 30, 213);}  
 .featuresyouImg>img{width: 100% ;}                  
 .yearButt{  
     position: absolute;
