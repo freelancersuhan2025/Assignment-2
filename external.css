@@ -10,15 +10,16 @@ body{
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /**************header all style start **********/
 header{width:100%;
-    height:800px;
+    height:820px;
     background-color: #FFF4E7;
   }
 
 nav{width:75%; 
     margin: auto;
-    height:10%;
+    height:6%;
     padding-top: 20px;
-    padding-bottom: 20px;}
+    border: 1px solid rebeccapurple;
+    padding-bottom:0px;}
  
 nav>ol{display: flex;
       justify-content: space-between;}
@@ -29,12 +30,13 @@ nav>ol>li:first-child{   font-family: 'Work Sans', sans-serif;
                         font-weight:bolder;
                         font-size:1.7rem;
                        }
-                       nav>ol>li:first-child>a{text-decoration: none;}                       
-nav>ol>li:last-child{ font-family: 'Work Sans', sans-serif;
+                       nav>ol>li:first-child>a{text-decoration: none;
+                                               color: black;}                       
+nav>ol>li:last-child{ font-family:arial;
                         list-style: none;                    
                         width: 50%;
-                        color: #62605E;
-                        font-weight: 400;
+                        color:gray;
+                        font-weight: 500;
                         display:flex;
                         align-items: center;
                         }
@@ -44,22 +46,25 @@ nav>ol>li:last-child>ul{display: flex;
                         width: 100%;
                         list-style-type:none;
                         gap:10%;
-                        font-size:1rem;
-                        font-weight:400;}
-                        nav>ol>li:last-child>ul>li>a{text-decoration: none;}
+                        font-size:.8rem;
+                        font-weight:500;}
+                        nav>ol>li:last-child>ul>li>a{text-decoration: none;
+                                                      color: rgb(84, 82, 82);}
 
 /*header text and barnder parent*/
-.headercontaner{width:75%;
-                height:85%;
+.headercontaner{width:80%;
+                height:90%;
                 margin: auto;
                display: flex;
-               gap:30px;
+               gap:2%;
+                
+               border:1px solid red;
                 flex-direction: column;
                 align-items: center;}
                                            
 
-.headercontent{
-               height:33%;
+.headercontent{border: 1px solid green;
+               height:30%;
                gap: 10%;
                display: flex;
                flex-direction: column;
@@ -72,12 +77,12 @@ nav>ol>li:last-child>ul{display: flex;
                             letter-spacing:-1px;
                             width:90%;
                           text-align: center;}
-.headercontent>.banerdesc{font-size:.8rem;
+.headercontent>.banerdesc{font-size:.67rem;
     font-family: 'Work Sans', sans-serif;
                         border: 1px skyblue dotted;
-                        width:86%;
+                        width:60%;
                          font-weight:100;
-                         line-height:14px;
+                         line-height:16px;
                          color:#727272;
                           text-align: center;}
 
@@ -94,14 +99,17 @@ nav>ol>li:last-child>ul{display: flex;
 } 
 /* baner img  */
 .headerbaner{
-    height:63%;
+    border: 1px solid blue;
+    height:fit-content;
     width:100%;
-    background-color: rgb(131, 107, 107);
+    /* background-color: rgb(131, 107, 107);
     background:url(images/banner.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain; 
+    background-size:cover;  */
 }
+.headerbaner>img{height:100%;
+                   width: 100%;}
 
 /*#####################header all style end######################*/
 main{
@@ -141,7 +149,7 @@ main{
 .QuicktextDesc{color:#727272d0;
                font-weight:initial;
                line-height:16px;
-               font-size:.9rem;
+               font-size:.69rem;
 }                   
 /*#####################Quick list of Features All style End ###########################*/
 /************Features love & enjoy all styl start****************/
@@ -216,9 +224,9 @@ main{
      align-items: center;
      justify-content: center;
 }
-.yearButt>b{font-size:45px;
-     line-height:45px;
-     font-weight:bold;}
+.yearButt>b{font-size:40px;
+    font-weight:700;
+     line-height:45px;}
 .yearButt>span{font-size: 15px;
                 font-weight: 500;
               }    
@@ -228,12 +236,11 @@ main{
 
 /******************Some Facts all Style Start **************/
 .SomeFactsContener{border: 1px solid red;
-    font-family: 'Work Sans', sans-serif;
     width:75%;
    margin: auto;
    display: flex;
   flex-direction: column;
-  gap:70px;
+  gap:35px;
   margin-bottom:70px;
   margin-top:70px;
   }
@@ -245,17 +252,22 @@ main{
                 gap: 9px;
                width:60%;}
 .SomeFactstitle{font-size:30px;
-    font-weight:700;
+    font-weight:700;    
+    font-family: 'Work Sans', sans-serif;
+
  }
 .SomeFactsDesc{line-height: 16px;
-    font-size:x-small;
-    font-weight:lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    font-weight:500;
     font-style:normal;
-    color: #9e9e9e;
+    color: #6f6d6dc9;
 }
 /* someFactboxs */
 .SomeFactallBoxs{border: 1px solid red;
                     width: 100%;
+                    font-family: 'Work Sans', sans-serif;
+
 display: flex;
 justify-content: space-around;}
 .boxFact{border: 1px #FFAC4C solid;
@@ -306,10 +318,11 @@ justify-content: space-around;}
     font-family: 'Work Sans', sans-serif;
 width: 50%;}
 .newsTitle{font-size:16px;
-    color:#131313;
+    color:#131313c6;
           }
-.newDesc{font-size:12px;
-          color:#727272;
+.newDesc{font-size:10px;
+          color:#303030;
+          font-weight:500;
           line-height: 14px;
 }
 /*MewsLetterInput*/
@@ -351,7 +364,7 @@ width: 50%;}
                }
 .oursponaltitle{color:#131313;
                 font-size: 30px;}
-.oursponadesc{font-size: 10px;
+.oursponadesc{font-size: 11px;
     color:  #3f3e3e;
     line-height: 15px;
     font-weight: 400;
@@ -368,7 +381,8 @@ width: 50%;}
 .oursponCompaneys img{width:15%; }                  
 /*################Our Spon Spors End hmlt##################*/
 /******************all footer style start***********/
-footer{
+footer{font-family: 'Work Sans', sans-serif;
+
     /* border:1px solid red; */
        width:75%;
        background-color: #FFF4E7;
@@ -382,6 +396,7 @@ footer{
        margin-bottom: 20px;}
 footer>span{color: #424242;
     font-size:16px;
+    
     font-weight: 100;
     /* border: 1px saddlebrown solid; */
 }       
