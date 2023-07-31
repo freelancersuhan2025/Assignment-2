@@ -14,7 +14,7 @@ header{width:100%;
     background-color: #FFF4E7;
   }
 
-nav{width:75%; 
+nav{width:80%; 
     margin: auto;
     height:6%;
     padding-top: 20px;
@@ -98,8 +98,7 @@ nav>ol>li:last-child>ul{display: flex;
                       color: #FFF;
 } 
 /* baner img  */
-.headerbaner{
-    border: 1px solid blue;
+.headerbaner{border: 1px solid blue;
     height:fit-content;
     width:100%;
     /* background-color: rgb(131, 107, 107);
@@ -107,6 +106,7 @@ nav>ol>li:last-child>ul{display: flex;
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;  */
+
 }
 .headerbaner>img{height:100%;
                    width: 100%;}
@@ -120,7 +120,7 @@ main{
      border:dashed 1px green;
      } 
 /******************Quick list of Features All Style start *********************/
-.QuicklistFeaturesContaner{width:75%; 
+.QuicklistFeaturesContaner{width:80%; 
                            margin: auto;
                            border:1px solid black;
                            display: flex;
@@ -153,7 +153,7 @@ main{
 }                   
 /*#####################Quick list of Features All style End ###########################*/
 /************Features love & enjoy all styl start****************/
-.Freaturesloveandenjoyandimage{ width:75%; 
+.Freaturesloveandenjoyandimage{ width:80%; 
                                 margin: auto;
                                 font-family: 'Work Sans', sans-serif;
                                 display: flex;
@@ -169,11 +169,11 @@ main{
                 gap: 20px;    
             }
 
-.FeatureYouTextTitle{font-size: 35px;
+.FeatureYouTextTitle{font-size: 33px;
                      margin-top: 12px 0px;
                      padding-left: 12px;
-                     font-weight: 700;
-                      color:  #131313;
+                     color: #131313;
+                     font-weight:900;
                      border-left:4px solid  #FF900E;}
 .featuresdesc{font-size: 11px;
               line-height: 22px;
@@ -236,7 +236,7 @@ main{
 
 /******************Some Facts all Style Start **************/
 .SomeFactsContener{border: 1px solid red;
-    width:75%;
+    width:80%;
    margin: auto;
    display: flex;
   flex-direction: column;
@@ -246,22 +246,23 @@ main{
   }
 /* somefacts style  */
 .SomeFactstext{border: 1px solid black;
-                text-align:left;
-                display: flex;
-                flex-direction: column;
-                gap: 9px;
-               width:60%;}
-.SomeFactstitle{font-size:30px;
-    font-weight:700;    
     font-family: 'Work Sans', sans-serif;
+                text-align:left;
+                display:flex;
+                flex-direction: column;
+                gap:5px;
+               width:60%;
+            }
+.SomeFactstitle{font-size:25px;
+    font-weight:900;    
 
  }
 .SomeFactsDesc{line-height: 16px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:11px;
-    font-weight:500;
-    font-style:normal;
-    color: #6f6d6dc9;
+    font-family:Arial;
+    color:#727272d0;
+               font-weight:initial;
+               line-height:16px;
+               font-size:.67rem;
 }
 /* someFactboxs */
 .SomeFactallBoxs{border: 1px solid red;
@@ -306,7 +307,7 @@ justify-content: space-around;}
                     background-color:#FFF4E7;
                     height:70px;
                     border-radius:5px;
-                    width:75%;
+                    width:80%;
                     margin: auto;
                     display:flex;
                     align-items:center;
@@ -316,14 +317,18 @@ justify-content: space-around;}
 /*News Letter*/
 .newsLetterText{border:1px solid rgb(0, 0, 0);
     font-family: 'Work Sans', sans-serif;
-width: 50%;}
+width: 50%;
+display: flex;
+    flex-direction: column;
+     gap:4px;}
 .newsTitle{font-size:16px;
     color:#131313c6;
           }
-.newDesc{font-size:10px;
-          color:#303030;
-          font-weight:500;
-          line-height: 14px;
+.newDesc{
+         color:#414040;
+               font-weight:initial;
+               line-height:12px;
+               font-size:.69rem;
 }
 /*MewsLetterInput*/
 .MewsLetterInput{width: 30%;
@@ -343,7 +348,7 @@ width: 50%;}
 /**************Our Spon Spors Start hmlt********************/
 .ourSponsporsContaner{
     /* border:1px solid rebeccapurple; */
-                           width:75%;
+                           width:80%;
                            margin: auto;    
                            display: flex;
                            flex-direction: column;
@@ -352,7 +357,7 @@ width: 50%;}
                            margin-bottom:100px;
 }
 /**ourspanlltext**/
-.oursponalltext{font-family: 'Work Sans', sans-serif;
+.oursponalltext{
                 border: 1px solid black;
                 text-align: center;
                 display: flex;
@@ -363,8 +368,11 @@ width: 50%;}
                 width: 60%;
                }
 .oursponaltitle{color:#131313;
-                font-size: 30px;}
+    font-family: 'Work Sans', sans-serif;
+                font-size:30px;
+                font-weight:900;}
 .oursponadesc{font-size: 11px;
+    font-family: 'Work Sans', sans-serif;
     color:  #3f3e3e;
     line-height: 15px;
     font-weight: 400;
@@ -384,7 +392,7 @@ width: 50%;}
 footer{font-family: 'Work Sans', sans-serif;
 
     /* border:1px solid red; */
-       width:75%;
+       width:80%;
        background-color: #FFF4E7;
        border-radius:5px;  
        height:2%;
@@ -395,8 +403,7 @@ footer{font-family: 'Work Sans', sans-serif;
        margin: auto;
        margin-bottom: 20px;}
 footer>span{color: #424242;
-    font-size:16px;
-    
+    font-size:14px;
     font-weight: 100;
     /* border: 1px saddlebrown solid; */
 }       
